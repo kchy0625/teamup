@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  color: #ffd703;
+  font-size: 2rem;
+  font-weight: 700;
+  align-items: center;
+}
+.navbar_login {
+  display: flex;
+}
+.navbar_login > button {
+  font-size: 1rem;
+  background: none;
+  border: none;
+}
+
+.first_banner {
+  background-color: #edfaf7;
+  height: 500px;
+}
+
+.second_banner {
+  background-color: #fff088;
+  height: 500px;
+}
+
+.third_bannerWrapper {
+  background-color: #ffeae9;
+}
+
+.third_banner {
+  display: flex;
+  max-width: 1200px;
+  height: 330px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.left {
+  flex: 1 1;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  row-gap: 30px;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+/* ProjectList 스티알 */
+
+.projectContainer {
+  width: 320px;
+  height: fit-content;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+.projectHead {
+  display: flex;
+  align-items: center;
+}
+
+.projectHead > img {
+  width: 30px;
+}
+.projectHead > p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.projectMain {
+  border-bottom: 1px solid #bebebe;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.projectMain > h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.projectMain > p {
+  background-color: #bebebe;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  max-width: fit-content;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.projectMain > img {
+  width: 3em;
+}
+.projectFooter {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.projectFooter > div > img {
+  width: 2em;
+  margin-right: 10px;
+}
+
+.projectFooter > div > p {
+  margin: 0px;
+}
